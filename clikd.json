@@ -1,23 +1,23 @@
- {
-    "version": "0.2.0",
-    "description": "Local development environment management for Clikd",
-    "homepage": "https://github.com/clikd-inc/clikd",
-    "license": "MIT",
+{
+  "version": "0.2.1",
+  "description": "Local development environment management for Clikd",
+  "homepage": "https://github.com/clikd-inc/cli",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/clikd-inc/cli/releases/download/v0.2.1/clikd-x86_64-pc-windows-msvc.zip",
+      "hash": "c2b314e5cba75afc69aa126085120e0410049369d084af7d85c2f77ba1b58719"
+    }
+  },
+  "bin": "clikd.exe",
+  "checkver": {
+    "github": "https://github.com/clikd-inc/cli"
+  },
+  "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/clikd-inc/clikd/releases/download/v0.2.0/clikd-x86_64-pc-windows-msvc.zip",
-        "hash": ""
-      }
-    },
-    "bin": "clikd.exe",
-    "checkver": {
-      "github": "https://github.com/clikd-inc/clikd"
-    },
-    "autoupdate": {
-      "architecture": {
-        "64bit": {
-          "url": "https://github.com/clikd-inc/clikd/releases/download/v$version/clikd-x86_64-pc-windows-msvc.zip"
-        }
+        "url": "https://github.com/clikd-inc/cli/releases/download/v$version/clikd-x86_64-pc-windows-msvc.zip"
       }
     }
   }
+}

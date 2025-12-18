@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
+  "version": "0.7.0",
   "description": "Local development environment management for Clikd",
   "homepage": "https://github.com/clikd-inc/cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/clikd-inc/cli/releases/download/v0.2.7/clikd-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/clikd-inc/cli/releases/download/v0.7.0/clikd-x86_64-pc-windows-msvc.zip",
       "hash": "Not"
     }
   },
